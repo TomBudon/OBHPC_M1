@@ -1,0 +1,11 @@
+coherency_line_size
+id
+level
+number_of_sets
+physical_line_partition
+shared_cpu_list
+shared_cpu_map
+size
+type
+uevent
+ways_of_associativity
