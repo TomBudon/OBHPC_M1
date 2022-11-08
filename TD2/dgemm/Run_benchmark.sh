@@ -47,6 +47,7 @@ for compiler in ${compilers[*]}; do
 
      for version in ${versions[*]}; do
           echo "`cat data/temp.dat | grep $version | cut -d';' -f11`;" >> data/$version.dat
+          echo "$version; `cat data/temp.dat | grep $version | cut -d';' -f11`;" >> data/$compiler.dat
      done
 
      rm data/temp.dat
