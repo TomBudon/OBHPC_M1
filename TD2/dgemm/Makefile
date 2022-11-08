@@ -22,7 +22,7 @@ else
 ifeq ($(CC),clang-14)
 	$(CC) $(CFLAGS) $(OFLAGS) $(FILES) -o $@ $(GNU_LFLAGS)
 else
-	@echo "ERROR: no compiler specified using CC. Possible values for CC: gcc, icc, icx, clang"
+	@echo "ERROR: no compiler specified using CC. Possible values for CC: gcc, icc, icx, clang-14"
 endif
 endif
 endif
