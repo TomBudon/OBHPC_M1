@@ -104,3 +104,6 @@ f64 dotprod_unroll16(f64 *restrict a, f64 *restrict b, u64 n)
   return d;
 }
 
+f64 dotprod_cblas(f64 *restrict a, f64 *restrict b, u64 n) {
+  return cblas_ddot(n, a, 0, b, 0);
+}

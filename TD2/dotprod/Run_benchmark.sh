@@ -2,7 +2,7 @@
  
 
 
-versions=("BASE" "UNROLL4" "UNROLL8" "UNROLL16")
+versions=("BASE" "UNROLL4" "UNROLL8" "UNROLL16" "CBLAS")
 
 compilers=("gcc" "clang-14" "icc" "icx")
 

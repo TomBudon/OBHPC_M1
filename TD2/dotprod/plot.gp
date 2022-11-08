@@ -34,4 +34,7 @@ plot "data/UNROLL8.dat" u 2:xtic(1) t "-O1" lc "blue", "" u 3:xtic(1) t "-O2" lc
 set title "UNROLL16"
 plot "data/UNROLL16.dat" u 2:xtic(1) t "-O1" lc "blue", "" u 3:xtic(1) t "-O2" lc "orange", "" u 4:xtic(1) t "-O3" lc "red"
 
+set title "CBLAS"
+plot "data/CBLAS.dat" u 2:xtic(1) t "-O1" lc "blue", "" u 3:xtic(1) t "-O2" lc "orange", "" u 4:xtic(1) t "-O3" lc "red"
+
 unset multiplot
