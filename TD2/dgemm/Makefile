@@ -11,7 +11,7 @@ all: dgemm
 
 dgemm:
 ifeq ($(CC),icc)
-	$(CC) $(CFLAGS) $(OFLAGS) $(FILES) -o $@ $(INTEL_LFLAGS)
+	$(CC) $(CFLAGS) $(OFLAGS) $(FILES) -o $@ $(INTEL_LFLAGS) -diag-disable=10441
 else
 ifeq ($(CC),icx)
 	$(CC) $(CFLAGS) $(OFLAGS) $(FILES) -o $@ $(INTEL_LFLAGS)
