@@ -16,7 +16,7 @@ set style data histogram
 set style fill solid border -1
 set boxwidth 0.5
 
-set yrange [0:20000]
+# set yrange [0:150]
 
 set xtic rotate by -45 scale 0 
 
@@ -58,7 +58,7 @@ set style data histogram
 set style fill solid border -1
 set boxwidth 0.5
 
-set yrange [0:20000]
+# set yrange [0:150]
 
 set xtic rotate by -45 scale 0 
 
